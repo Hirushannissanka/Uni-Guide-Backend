@@ -5,4 +5,5 @@ import org.example.dto.response.ApiResponse;
 
 public interface UserService {
     public ApiResponse signUp(ApiRequest request);
+    public ApiResponse signIn(ApiRequest request);
 }
